@@ -1,0 +1,268 @@
+2021-12-21 16:04:42,094 - zjc2/train.log - INFO - model_type     :	bilstm
+2021-12-21 16:04:42,094 - zjc2/train.log - INFO - num_chars      :	2178
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - char_dim       :	100
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - num_tags       :	12
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - seg_dim        :	20
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - lstm_dim       :	100
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - batch_size     :	20
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - emb_file       :	../word_embeding\char.vec
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - clip           :	5.0
+2021-12-21 16:04:42,095 - zjc2/train.log - INFO - dropout_keep   :	0.5
+2021-12-21 16:04:42,096 - zjc2/train.log - INFO - optimizer      :	adam
+2021-12-21 16:04:42,096 - zjc2/train.log - INFO - lr             :	0.001
+2021-12-21 16:04:42,096 - zjc2/train.log - INFO - tag_schema     :	iobes
+2021-12-21 16:04:42,096 - zjc2/train.log - INFO - pre_emb        :	True
+2021-12-21 16:04:42,097 - zjc2/train.log - INFO - zeros          :	False
+2021-12-21 16:04:42,097 - zjc2/train.log - INFO - lower          :	True
+2021-12-21 16:04:45,025 - zjc2/train.log - INFO - Created model with fresh parameters.
+2021-12-21 16:04:46,526 - zjc2/train.log - INFO - Load pre-trained embedding.
+2021-12-21 16:04:46,527 - zjc2/train.log - INFO - start training
+2021-12-21 16:04:54,389 - zjc2/train.log - INFO - iteration:1 step:100/1825, NER loss:29.389368
+2021-12-21 16:05:00,996 - zjc2/train.log - INFO - iteration:1 step:200/1825, NER loss:11.042593
+2021-12-21 16:05:07,752 - zjc2/train.log - INFO - iteration:1 step:300/1825, NER loss: 6.987409
+2021-12-21 16:05:13,903 - zjc2/train.log - INFO - iteration:1 step:400/1825, NER loss: 4.894557
+2021-12-21 16:05:21,028 - zjc2/train.log - INFO - iteration:1 step:500/1825, NER loss: 4.652355
+2021-12-21 16:05:27,374 - zjc2/train.log - INFO - iteration:1 step:600/1825, NER loss: 3.817094
+2021-12-21 16:05:34,323 - zjc2/train.log - INFO - iteration:1 step:700/1825, NER loss: 3.421896
+2021-12-21 16:05:41,243 - zjc2/train.log - INFO - iteration:1 step:800/1825, NER loss: 3.286354
+2021-12-21 16:05:48,475 - zjc2/train.log - INFO - iteration:1 step:900/1825, NER loss: 3.652320
+2021-12-21 16:05:55,631 - zjc2/train.log - INFO - iteration:1 step:1000/1825, NER loss: 2.930284
+2021-12-21 16:06:03,769 - zjc2/train.log - INFO - iteration:1 step:1100/1825, NER loss: 2.509029
+2021-12-21 16:06:12,804 - zjc2/train.log - INFO - iteration:1 step:1200/1825, NER loss: 2.264422
+2021-12-21 16:06:21,680 - zjc2/train.log - INFO - iteration:1 step:1300/1825, NER loss: 2.268254
+2021-12-21 16:06:31,061 - zjc2/train.log - INFO - iteration:1 step:1400/1825, NER loss: 2.302802
+2021-12-21 16:06:39,651 - zjc2/train.log - INFO - iteration:1 step:1500/1825, NER loss: 2.091140
+2021-12-21 16:06:48,635 - zjc2/train.log - INFO - iteration:1 step:1600/1825, NER loss: 2.182024
+2021-12-21 16:06:57,688 - zjc2/train.log - INFO - iteration:1 step:1700/1825, NER loss: 1.897161
+2021-12-21 16:07:06,498 - zjc2/train.log - INFO - iteration:1 step:1800/1825, NER loss: 2.072440
+2021-12-21 16:07:08,288 - zjc2/train.log - INFO - evaluate:dev
+2021-12-21 16:07:14,678 - zjc2/train.log - INFO - processed 160311 tokens with 1773 phrases; found: 1657 phrases; correct: 1394.
+
+2021-12-21 16:07:14,678 - zjc2/train.log - INFO - accuracy:  98.17%; precision:  84.13%; recall:  78.62%; FB1:  81.28
+
+2021-12-21 16:07:14,678 - zjc2/train.log - INFO -               ORG: precision:  77.54%; recall:  78.75%; FB1:  78.14  325
+
+2021-12-21 16:07:14,678 - zjc2/train.log - INFO -              ORGS: precision:  88.29%; recall:  80.00%; FB1:  83.94  1196
+
+2021-12-21 16:07:14,679 - zjc2/train.log - INFO -               PER: precision:  63.24%; recall:  64.66%; FB1:  63.94  136
+
+2021-12-21 16:07:14,865 - zjc2/train.log - INFO - new best dev f1 score:81.280
+2021-12-21 16:07:15,599 - zjc2/train.log - INFO - model saved
+2021-12-21 16:07:20,250 - zjc2/train.log - INFO - iteration:2 step:75/1825, NER loss: 1.515835
+2021-12-21 16:07:25,831 - zjc2/train.log - INFO - iteration:2 step:175/1825, NER loss: 1.452797
+2021-12-21 16:07:32,066 - zjc2/train.log - INFO - iteration:2 step:275/1825, NER loss: 1.604802
+2021-12-21 16:07:39,327 - zjc2/train.log - INFO - iteration:2 step:375/1825, NER loss: 1.558258
+2021-12-21 16:07:45,962 - zjc2/train.log - INFO - iteration:2 step:475/1825, NER loss: 1.490357
+2021-12-21 16:07:53,447 - zjc2/train.log - INFO - iteration:2 step:575/1825, NER loss: 1.141477
+2021-12-21 16:08:00,604 - zjc2/train.log - INFO - iteration:2 step:675/1825, NER loss: 1.069141
+2021-12-21 16:08:09,862 - zjc2/train.log - INFO - iteration:2 step:775/1825, NER loss: 1.437022
+2021-12-21 16:08:18,884 - zjc2/train.log - INFO - iteration:2 step:875/1825, NER loss: 1.320899
+2021-12-21 16:08:28,722 - zjc2/train.log - INFO - iteration:2 step:975/1825, NER loss: 1.689235
+2021-12-21 16:08:37,402 - zjc2/train.log - INFO - iteration:2 step:1075/1825, NER loss: 1.282700
+2021-12-21 16:08:45,964 - zjc2/train.log - INFO - iteration:2 step:1175/1825, NER loss: 1.086023
+2021-12-21 16:08:55,024 - zjc2/train.log - INFO - iteration:2 step:1275/1825, NER loss: 1.218468
+2021-12-21 16:09:03,024 - zjc2/train.log - INFO - iteration:2 step:1375/1825, NER loss: 0.973079
+2021-12-21 16:09:11,315 - zjc2/train.log - INFO - iteration:2 step:1475/1825, NER loss: 1.124243
+2021-12-21 16:09:19,701 - zjc2/train.log - INFO - iteration:2 step:1575/1825, NER loss: 0.921965
+2021-12-21 16:09:29,605 - zjc2/train.log - INFO - iteration:2 step:1675/1825, NER loss: 1.236522
+2021-12-21 16:09:38,659 - zjc2/train.log - INFO - iteration:2 step:1775/1825, NER loss: 1.093624
+2021-12-21 16:09:43,146 - zjc2/train.log - INFO - evaluate:dev
+2021-12-21 16:09:50,602 - zjc2/train.log - INFO - processed 160311 tokens with 1773 phrases; found: 1667 phrases; correct: 1463.
+
+2021-12-21 16:09:50,602 - zjc2/train.log - INFO - accuracy:  98.47%; precision:  87.76%; recall:  82.52%; FB1:  85.06
+
+2021-12-21 16:09:50,603 - zjc2/train.log - INFO -               ORG: precision:  84.97%; recall:  81.25%; FB1:  83.07  306
+
+2021-12-21 16:09:50,603 - zjc2/train.log - INFO -              ORGS: precision:  90.08%; recall:  86.67%; FB1:  88.34  1270
+
+2021-12-21 16:09:50,603 - zjc2/train.log - INFO -               PER: precision:  64.84%; recall:  44.36%; FB1:  52.68  91
+
+2021-12-21 16:09:50,800 - zjc2/train.log - INFO - new best dev f1 score:85.060
+2021-12-21 16:09:51,381 - zjc2/train.log - INFO - model saved
+2021-12-21 16:09:54,787 - zjc2/train.log - INFO - iteration:3 step:50/1825, NER loss: 0.909132
+2021-12-21 16:10:01,094 - zjc2/train.log - INFO - iteration:3 step:150/1825, NER loss: 0.736859
+2021-12-21 16:10:07,589 - zjc2/train.log - INFO - iteration:3 step:250/1825, NER loss: 0.743267
+2021-12-21 16:10:14,214 - zjc2/train.log - INFO - iteration:3 step:350/1825, NER loss: 0.747198
+2021-12-21 16:10:21,198 - zjc2/train.log - INFO - iteration:3 step:450/1825, NER loss: 0.824080
+2021-12-21 16:10:30,054 - zjc2/train.log - INFO - iteration:3 step:550/1825, NER loss: 0.981986
+2021-12-21 16:10:37,208 - zjc2/train.log - INFO - iteration:3 step:650/1825, NER loss: 0.640432
+2021-12-21 16:10:45,601 - zjc2/train.log - INFO - iteration:3 step:750/1825, NER loss: 0.700020
+2021-12-21 16:10:54,238 - zjc2/train.log - INFO - iteration:3 step:850/1825, NER loss: 0.692646
+2021-12-21 16:11:02,626 - zjc2/train.log - INFO - iteration:3 step:950/1825, NER loss: 0.767217
+2021-12-21 16:11:10,597 - zjc2/train.log - INFO - iteration:3 step:1050/1825, NER loss: 0.842641
+2021-12-21 16:11:18,830 - zjc2/train.log - INFO - iteration:3 step:1150/1825, NER loss: 0.665655
+2021-12-21 16:11:28,242 - zjc2/train.log - INFO - iteration:3 step:1250/1825, NER loss: 0.761477
+2021-12-21 16:11:37,056 - zjc2/train.log - INFO - iteration:3 step:1350/1825, NER loss: 0.790996
+2021-12-21 16:11:45,678 - zjc2/train.log - INFO - iteration:3 step:1450/1825, NER loss: 0.707565
+2021-12-21 16:11:54,975 - zjc2/train.log - INFO - iteration:3 step:1550/1825, NER loss: 0.773934
+2021-12-21 16:12:02,756 - zjc2/train.log - INFO - iteration:3 step:1650/1825, NER loss: 0.648446
+2021-12-21 16:12:11,777 - zjc2/train.log - INFO - iteration:3 step:1750/1825, NER loss: 0.630052
+2021-12-21 16:12:17,573 - zjc2/train.log - INFO - evaluate:dev
+2021-12-21 16:12:23,692 - zjc2/train.log - INFO - processed 160311 tokens with 1773 phrases; found: 1953 phrases; correct: 1610.
+
+2021-12-21 16:12:23,692 - zjc2/train.log - INFO - accuracy:  98.25%; precision:  82.44%; recall:  90.81%; FB1:  86.42
+
+2021-12-21 16:12:23,693 - zjc2/train.log - INFO -               ORG: precision:  70.21%; recall:  92.81%; FB1:  79.95  423
+
+2021-12-21 16:12:23,693 - zjc2/train.log - INFO -              ORGS: precision:  88.20%; recall:  92.27%; FB1:  90.19  1381
+
+2021-12-21 16:12:23,693 - zjc2/train.log - INFO -               PER: precision:  63.76%; recall:  71.43%; FB1:  67.38  149
+
+2021-12-21 16:12:23,807 - zjc2/train.log - INFO - new best dev f1 score:86.420
+2021-12-21 16:12:24,418 - zjc2/train.log - INFO - model saved
+2021-12-21 16:12:26,501 - zjc2/train.log - INFO - iteration:4 step:25/1825, NER loss: 0.731606
+2021-12-21 16:12:33,711 - zjc2/train.log - INFO - iteration:4 step:125/1825, NER loss: 0.620387
+2021-12-21 16:12:40,392 - zjc2/train.log - INFO - iteration:4 step:225/1825, NER loss: 0.524535
+2021-12-21 16:12:47,061 - zjc2/train.log - INFO - iteration:4 step:325/1825, NER loss: 0.519083
+2021-12-21 16:12:54,789 - zjc2/train.log - INFO - iteration:4 step:425/1825, NER loss: 0.498361
+2021-12-21 16:13:03,707 - zjc2/train.log - INFO - iteration:4 step:525/1825, NER loss: 0.470196
+2021-12-21 16:13:11,112 - zjc2/train.log - INFO - iteration:4 step:625/1825, NER loss: 0.427316
+2021-12-21 16:13:19,175 - zjc2/train.log - INFO - iteration:4 step:725/1825, NER loss: 0.503098
+2021-12-21 16:13:27,763 - zjc2/train.log - INFO - iteration:4 step:825/1825, NER loss: 0.465961
+2021-12-21 16:13:37,782 - zjc2/train.log - INFO - iteration:4 step:925/1825, NER loss: 0.614158
+2021-12-21 16:13:46,811 - zjc2/train.log - INFO - iteration:4 step:1025/1825, NER loss: 0.535446
+2021-12-21 16:13:54,617 - zjc2/train.log - INFO - iteration:4 step:1125/1825, NER loss: 0.429813
+2021-12-21 16:14:03,324 - zjc2/train.log - INFO - iteration:4 step:1225/1825, NER loss: 0.430767
+2021-12-21 16:14:11,153 - zjc2/train.log - INFO - iteration:4 step:1325/1825, NER loss: 0.475482
+2021-12-21 16:14:19,960 - zjc2/train.log - INFO - iteration:4 step:1425/1825, NER loss: 0.562971
+2021-12-21 16:14:29,462 - zjc2/train.log - INFO - iteration:4 step:1525/1825, NER loss: 0.543538
+2021-12-21 16:14:38,315 - zjc2/train.log - INFO - iteration:4 step:1625/1825, NER loss: 0.526163
+2021-12-21 16:14:46,860 - zjc2/train.log - INFO - iteration:4 step:1725/1825, NER loss: 0.441803
+2021-12-21 16:14:54,533 - zjc2/train.log - INFO - iteration:5 step:0/1825, NER loss: 0.337523
+2021-12-21 16:14:54,534 - zjc2/train.log - INFO - evaluate:dev
+2021-12-21 16:15:02,097 - zjc2/train.log - INFO - processed 160311 tokens with 1773 phrases; found: 1768 phrases; correct: 1553.
+
+2021-12-21 16:15:02,097 - zjc2/train.log - INFO - accuracy:  98.64%; precision:  87.84%; recall:  87.59%; FB1:  87.72
+
+2021-12-21 16:15:02,097 - zjc2/train.log - INFO -               ORG: precision:  80.06%; recall:  89.06%; FB1:  84.32  356
+
+2021-12-21 16:15:02,097 - zjc2/train.log - INFO -              ORGS: precision:  91.88%; recall:  90.83%; FB1:  91.35  1305
+
+2021-12-21 16:15:02,097 - zjc2/train.log - INFO -               PER: precision:  64.49%; recall:  51.88%; FB1:  57.50  107
+
+2021-12-21 16:15:02,237 - zjc2/train.log - INFO - new best dev f1 score:87.720
+2021-12-21 16:15:02,842 - zjc2/train.log - INFO - model saved
+2021-12-21 16:15:12,175 - zjc2/train.log - INFO - iteration:5 step:100/1825, NER loss: 0.373372
+2021-12-21 16:15:20,017 - zjc2/train.log - INFO - iteration:5 step:200/1825, NER loss: 0.366964
+2021-12-21 16:15:28,860 - zjc2/train.log - INFO - iteration:5 step:300/1825, NER loss: 0.465567
+2021-12-21 16:15:36,972 - zjc2/train.log - INFO - iteration:5 step:400/1825, NER loss: 0.455870
+2021-12-21 16:15:45,215 - zjc2/train.log - INFO - iteration:5 step:500/1825, NER loss: 0.382306
+2021-12-21 16:15:52,417 - zjc2/train.log - INFO - iteration:5 step:600/1825, NER loss: 0.338873
+2021-12-21 16:16:02,332 - zjc2/train.log - INFO - iteration:5 step:700/1825, NER loss: 0.394726
+2021-12-21 16:16:11,073 - zjc2/train.log - INFO - iteration:5 step:800/1825, NER loss: 0.374671
+2021-12-21 16:16:19,255 - zjc2/train.log - INFO - iteration:5 step:900/1825, NER loss: 0.372982
+2021-12-21 16:16:27,848 - zjc2/train.log - INFO - iteration:5 step:1000/1825, NER loss: 0.360401
+2021-12-21 16:16:36,916 - zjc2/train.log - INFO - iteration:5 step:1100/1825, NER loss: 0.397750
+2021-12-21 16:16:45,598 - zjc2/train.log - INFO - iteration:5 step:1200/1825, NER loss: 0.444680
+2021-12-21 16:16:54,073 - zjc2/train.log - INFO - iteration:5 step:1300/1825, NER loss: 0.332737
+2021-12-21 16:17:02,946 - zjc2/train.log - INFO - iteration:5 step:1400/1825, NER loss: 0.340244
+2021-12-21 16:17:12,882 - zjc2/train.log - INFO - iteration:5 step:1500/1825, NER loss: 0.402230
+2021-12-21 16:17:20,710 - zjc2/train.log - INFO - iteration:5 step:1600/1825, NER loss: 0.290569
+2021-12-21 16:17:28,686 - zjc2/train.log - INFO - iteration:5 step:1700/1825, NER loss: 0.339581
+2021-12-21 16:17:38,133 - zjc2/train.log - INFO - iteration:5 step:1800/1825, NER loss: 0.521639
+2021-12-21 16:17:39,896 - zjc2/train.log - INFO - evaluate:dev
+2021-12-21 16:17:47,562 - zjc2/train.log - INFO - processed 160311 tokens with 1773 phrases; found: 1750 phrases; correct: 1523.
+
+2021-12-21 16:17:47,562 - zjc2/train.log - INFO - accuracy:  98.50%; precision:  87.03%; recall:  85.90%; FB1:  86.46
+
+2021-12-21 16:17:47,562 - zjc2/train.log - INFO -               ORG: precision:  84.18%; recall:  83.12%; FB1:  83.65  316
+
+2021-12-21 16:17:47,562 - zjc2/train.log - INFO -              ORGS: precision:  89.79%; recall:  91.29%; FB1:  90.53  1342
+
+2021-12-21 16:17:47,562 - zjc2/train.log - INFO -               PER: precision:  56.52%; recall:  39.10%; FB1:  46.22  92
+
+2021-12-21 16:17:53,937 - zjc2/train.log - INFO - iteration:6 step:75/1825, NER loss: 0.316053
+2021-12-21 16:18:02,036 - zjc2/train.log - INFO - iteration:6 step:175/1825, NER loss: 0.330268
+2021-12-21 16:18:11,574 - zjc2/train.log - INFO - iteration:6 step:275/1825, NER loss: 0.356496
+2021-12-21 16:18:19,311 - zjc2/train.log - INFO - iteration:6 step:375/1825, NER loss: 0.255010
+2021-12-21 16:18:28,312 - zjc2/train.log - INFO - iteration:6 step:475/1825, NER loss: 0.345080
+2021-12-21 16:18:36,396 - zjc2/train.log - INFO - iteration:6 step:575/1825, NER loss: 0.316516
+2021-12-21 16:18:45,105 - zjc2/train.log - INFO - iteration:6 step:675/1825, NER loss: 0.322768
+2021-12-21 16:18:54,338 - zjc2/train.log - INFO - iteration:6 step:775/1825, NER loss: 0.365854
+2021-12-21 16:19:03,288 - zjc2/train.log - INFO - iteration:6 step:875/1825, NER loss: 0.357466
+2021-12-21 16:19:12,014 - zjc2/train.log - INFO - iteration:6 step:975/1825, NER loss: 0.344298
+2021-12-21 16:19:22,358 - zjc2/train.log - INFO - iteration:6 step:1075/1825, NER loss: 0.333292
+2021-12-21 16:19:31,736 - zjc2/train.log - INFO - iteration:6 step:1175/1825, NER loss: 0.254658
+2021-12-21 16:19:41,335 - zjc2/train.log - INFO - iteration:6 step:1275/1825, NER loss: 0.354282
+2021-12-21 16:19:50,135 - zjc2/train.log - INFO - iteration:6 step:1375/1825, NER loss: 0.331841
+2021-12-21 16:19:59,675 - zjc2/train.log - INFO - iteration:6 step:1475/1825, NER loss: 0.311902
+2021-12-21 16:20:08,319 - zjc2/train.log - INFO - iteration:6 step:1575/1825, NER loss: 0.261079
+2021-12-21 16:20:17,144 - zjc2/train.log - INFO - iteration:6 step:1675/1825, NER loss: 0.291311
+2021-12-21 16:20:25,752 - zjc2/train.log - INFO - iteration:6 step:1775/1825, NER loss: 0.300901
+2021-12-21 16:20:29,605 - zjc2/train.log - INFO - evaluate:dev
+2021-12-21 16:20:37,325 - zjc2/train.log - INFO - processed 160311 tokens with 1773 phrases; found: 1879 phrases; correct: 1577.
+
+2021-12-21 16:20:37,326 - zjc2/train.log - INFO - accuracy:  98.53%; precision:  83.93%; recall:  88.95%; FB1:  86.36
+
+2021-12-21 16:20:37,327 - zjc2/train.log - INFO -               ORG: precision:  81.76%; recall:  86.88%; FB1:  84.24  340
+
+2021-12-21 16:20:37,327 - zjc2/train.log - INFO -              ORGS: precision:  85.85%; recall:  95.15%; FB1:  90.26  1463
+
+2021-12-21 16:20:37,327 - zjc2/train.log - INFO -               PER: precision:  56.58%; recall:  32.33%; FB1:  41.15  76
+
+2021-12-22 03:20:22,996 - zjc2/train.log - INFO - Reading model parameters from zjc2\ner.ckpt
+2021-12-24 16:17:15,431 - ./zjc2/train.log - INFO - model_type     :	bilstm
+2021-12-24 16:17:15,443 - ./zjc2/train.log - INFO - num_chars      :	2178
+2021-12-24 16:17:15,443 - ./zjc2/train.log - INFO - char_dim       :	100
+2021-12-24 16:17:15,443 - ./zjc2/train.log - INFO - num_tags       :	12
+2021-12-24 16:17:15,444 - ./zjc2/train.log - INFO - seg_dim        :	20
+2021-12-24 16:17:15,444 - ./zjc2/train.log - INFO - lstm_dim       :	100
+2021-12-24 16:17:15,444 - ./zjc2/train.log - INFO - batch_size     :	20
+2021-12-24 16:17:15,445 - ./zjc2/train.log - INFO - emb_file       :	../word_embeding\char.vec
+2021-12-24 16:17:15,445 - ./zjc2/train.log - INFO - clip           :	5.0
+2021-12-24 16:17:15,445 - ./zjc2/train.log - INFO - dropout_keep   :	0.5
+2021-12-24 16:17:15,446 - ./zjc2/train.log - INFO - optimizer      :	adam
+2021-12-24 16:17:15,446 - ./zjc2/train.log - INFO - lr             :	0.001
+2021-12-24 16:17:15,446 - ./zjc2/train.log - INFO - tag_schema     :	iobes
+2021-12-24 16:17:15,446 - ./zjc2/train.log - INFO - pre_emb        :	True
+2021-12-24 16:17:15,447 - ./zjc2/train.log - INFO - zeros          :	False
+2021-12-24 16:17:15,447 - ./zjc2/train.log - INFO - lower          :	True
+2021-12-24 16:22:55,415 - ./zjc2/train.log - INFO - model_type     :	bilstm
+2021-12-24 16:22:55,415 - ./zjc2/train.log - INFO - num_chars      :	2178
+2021-12-24 16:22:55,415 - ./zjc2/train.log - INFO - char_dim       :	100
+2021-12-24 16:22:55,415 - ./zjc2/train.log - INFO - num_tags       :	12
+2021-12-24 16:22:55,415 - ./zjc2/train.log - INFO - seg_dim        :	20
+2021-12-24 16:22:55,415 - ./zjc2/train.log - INFO - lstm_dim       :	100
+2021-12-24 16:22:55,415 - ./zjc2/train.log - INFO - batch_size     :	20
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - emb_file       :	../word_embeding\char.vec
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - clip           :	5.0
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - dropout_keep   :	0.5
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - optimizer      :	adam
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - lr             :	0.001
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - tag_schema     :	iobes
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - pre_emb        :	True
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - zeros          :	False
+2021-12-24 16:22:55,416 - ./zjc2/train.log - INFO - lower          :	True
+2021-12-24 16:28:39,535 - ./zjc2/train.log - INFO - model_type     :	bilstm
+2021-12-24 16:28:39,535 - ./zjc2/train.log - INFO - num_chars      :	2178
+2021-12-24 16:28:39,535 - ./zjc2/train.log - INFO - char_dim       :	100
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - num_tags       :	12
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - seg_dim        :	20
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - lstm_dim       :	100
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - batch_size     :	20
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - emb_file       :	../word_embeding\char.vec
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - clip           :	5.0
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - dropout_keep   :	0.5
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - optimizer      :	adam
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - lr             :	0.001
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - tag_schema     :	iobes
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - pre_emb        :	True
+2021-12-24 16:28:39,536 - ./zjc2/train.log - INFO - zeros          :	False
+2021-12-24 16:28:39,537 - ./zjc2/train.log - INFO - lower          :	True
+2021-12-24 16:34:26,084 - ./zjc2/train.log - INFO - model_type     :	bilstm
+2021-12-24 16:34:26,085 - ./zjc2/train.log - INFO - num_chars      :	2178
+2021-12-24 16:34:26,085 - ./zjc2/train.log - INFO - char_dim       :	100
+2021-12-24 16:34:26,085 - ./zjc2/train.log - INFO - num_tags       :	12
+2021-12-24 16:34:26,085 - ./zjc2/train.log - INFO - seg_dim        :	20
+2021-12-24 16:34:26,085 - ./zjc2/train.log - INFO - lstm_dim       :	100
+2021-12-24 16:34:26,085 - ./zjc2/train.log - INFO - batch_size     :	20
+2021-12-24 16:34:26,085 - ./zjc2/train.log - INFO - emb_file       :	../word_embeding\char.vec
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - clip           :	5.0
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - dropout_keep   :	0.5
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - optimizer      :	adam
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - lr             :	0.001
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - tag_schema     :	iobes
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - pre_emb        :	True
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - zeros          :	False
+2021-12-24 16:34:26,086 - ./zjc2/train.log - INFO - lower          :	True
+2021-12-24 16:41:29,958 - zjc2/train.log - INFO - Reading model parameters from zjc2\ner.ckpt

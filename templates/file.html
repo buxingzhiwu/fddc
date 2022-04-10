@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息抽取系统</title>
+    {# 载入bootstrap的css文件 #}
+    <link href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    {# 引入js文件 #}
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+<body>
+<div class="container-md">
+    {#    网页标题#}
+    <div class="jumbotron">
+        <h1 align="center">A股上市公司公告信息抽取系统</h1>
+    </div>
+    <br>
+
+    <div>
+        {% if ifsuccess==2 %}
+            <div class="alert alert-success" role="alert">
+                {{ filename }} 上传成功！
+            </div>
+        {% elif ifsuccess==3 %}
+            <div class="alert alert-danger" role="alert">
+                上传失败，请上传html格式的文件！
+            </div>
+        {% elif ifsuccess==4 %}
+            <div class="alert alert-danger" role="alert">
+                {{ filename }} 上传失败！
+            </div>
+        {% endif %}
+        <div class="row" align="top">
+            <form method=post enctype=multipart/form-data class="col-md-5">
+                <input type=file name=file class="btn btn-light">
+                <input type=submit value=上传 class="btn btn-light">
+            </form>
+            <div class="col" align="left" class="col-md-5">
+                <a href="{{ url_for('manage_file') }}" class="btn btn-link" target="_blank">文件管理</a>
+            </div>
+            <div class="col" align="center" class="col-md-2">
+                <a href="#" class="btn btn-info">信息抽取</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <br>
+        <h4>信息抽取结果:</h4><br>
+        <div>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col">文件名</th>
+                    <th scope="col">序号</th>
+                    <th scope="col">股东全称</th>
+                    <th scope="col">股东简称</th>
+                    <th scope="col">变动截止日期</th>
+                    <th scope="col">变动价格</th>
+                    <th scope="col">变动数量</th>
+                    <th scope="col">变动后持股数</th>
+                    <th scope="col">变动后持股比例</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td>aaa</td>
+                    <td>aaa</td>
+                    <td>aaa</td>
+                    <td>aaa</td>
+                    <td>aaa</td>
+                    <td>aaa</td>
+                    <td>aaa</td>
+                    <td>aaa</td>
+                    <td>aaa</td>
+
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

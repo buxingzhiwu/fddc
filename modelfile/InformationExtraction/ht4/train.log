@@ -1,0 +1,376 @@
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - model_type     :	idcnn
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - num_chars      :	3398
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - char_dim       :	100
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - num_tags       :	12
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - seg_dim        :	20
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - lstm_dim       :	100
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - batch_size     :	20
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - emb_file       :	../word_embeding/char.vec
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - clip           :	5.0
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - dropout_keep   :	0.5
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - optimizer      :	adam
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - lr             :	0.001
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - tag_schema     :	iobes
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - pre_emb        :	True
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - zeros          :	False
+2018-07-28 21:20:50,159 - ht4/train.log - INFO - lower          :	True
+2018-07-28 21:20:51,207 - ht4/train.log - INFO - Created model with fresh parameters.
+2018-07-28 21:20:52,142 - ht4/train.log - INFO - Load pre-trained embedding.
+2018-07-28 21:20:52,142 - ht4/train.log - INFO - start training
+2018-07-28 21:20:58,758 - ht4/train.log - INFO - iteration:1 step:100/2954, NER loss:23.723234
+2018-07-28 21:21:03,627 - ht4/train.log - INFO - iteration:1 step:200/2954, NER loss:12.961531
+2018-07-28 21:21:08,702 - ht4/train.log - INFO - iteration:1 step:300/2954, NER loss:12.344102
+2018-07-28 21:21:13,939 - ht4/train.log - INFO - iteration:1 step:400/2954, NER loss:10.060792
+2018-07-28 21:21:19,744 - ht4/train.log - INFO - iteration:1 step:500/2954, NER loss: 9.162466
+2018-07-28 21:21:23,989 - ht4/train.log - INFO - iteration:1 step:600/2954, NER loss: 5.328794
+2018-07-28 21:21:29,005 - ht4/train.log - INFO - iteration:1 step:700/2954, NER loss: 7.732488
+2018-07-28 21:21:35,197 - ht4/train.log - INFO - iteration:1 step:800/2954, NER loss: 7.159853
+2018-07-28 21:21:41,082 - ht4/train.log - INFO - iteration:1 step:900/2954, NER loss: 6.742430
+2018-07-28 21:21:46,724 - ht4/train.log - INFO - iteration:1 step:1000/2954, NER loss: 5.559189
+2018-07-28 21:21:51,952 - ht4/train.log - INFO - iteration:1 step:1100/2954, NER loss: 4.763486
+2018-07-28 21:21:56,637 - ht4/train.log - INFO - iteration:1 step:1200/2954, NER loss: 4.176506
+2018-07-28 21:22:01,938 - ht4/train.log - INFO - iteration:1 step:1300/2954, NER loss: 4.835759
+2018-07-28 21:22:07,490 - ht4/train.log - INFO - iteration:1 step:1400/2954, NER loss: 5.110001
+2018-07-28 21:22:12,471 - ht4/train.log - INFO - iteration:1 step:1500/2954, NER loss: 4.059029
+2018-07-28 21:22:16,625 - ht4/train.log - INFO - iteration:1 step:1600/2954, NER loss: 2.223970
+2018-07-28 21:22:21,560 - ht4/train.log - INFO - iteration:1 step:1700/2954, NER loss: 3.202947
+2018-07-28 21:22:26,226 - ht4/train.log - INFO - iteration:1 step:1800/2954, NER loss: 3.256700
+2018-07-28 21:22:31,210 - ht4/train.log - INFO - iteration:1 step:1900/2954, NER loss: 3.010583
+2018-07-28 21:22:35,467 - ht4/train.log - INFO - iteration:1 step:2000/2954, NER loss: 2.028560
+2018-07-28 21:22:40,150 - ht4/train.log - INFO - iteration:1 step:2100/2954, NER loss: 2.355005
+2018-07-28 21:22:45,090 - ht4/train.log - INFO - iteration:1 step:2200/2954, NER loss: 2.748424
+2018-07-28 21:22:50,214 - ht4/train.log - INFO - iteration:1 step:2300/2954, NER loss: 2.550455
+2018-07-28 21:22:55,407 - ht4/train.log - INFO - iteration:1 step:2400/2954, NER loss: 2.348006
+2018-07-28 21:23:00,022 - ht4/train.log - INFO - iteration:1 step:2500/2954, NER loss: 2.158352
+2018-07-28 21:23:04,111 - ht4/train.log - INFO - iteration:1 step:2600/2954, NER loss: 1.323737
+2018-07-28 21:23:09,018 - ht4/train.log - INFO - iteration:1 step:2700/2954, NER loss: 1.938361
+2018-07-28 21:23:13,798 - ht4/train.log - INFO - iteration:1 step:2800/2954, NER loss: 2.103855
+2018-07-28 21:23:18,623 - ht4/train.log - INFO - iteration:1 step:2900/2954, NER loss: 1.826188
+2018-07-28 21:23:21,364 - ht4/train.log - INFO - evaluate:dev
+2018-07-28 21:23:28,488 - ht4/train.log - INFO - processed 207821 tokens with 712 phrases; found: 203 phrases; correct: 108.
+
+2018-07-28 21:23:28,488 - ht4/train.log - INFO - accuracy:  95.06%; precision:  53.20%; recall:  15.17%; FB1:  23.61
+
+2018-07-28 21:23:28,488 - ht4/train.log - INFO -                HT: precision:  37.50%; recall:  28.95%; FB1:  32.67  88
+
+2018-07-28 21:23:28,488 - ht4/train.log - INFO -               ORG: precision:  82.93%; recall:   9.47%; FB1:  17.00  41
+
+2018-07-28 21:23:28,488 - ht4/train.log - INFO -                XM: precision:  55.41%; recall:  17.15%; FB1:  26.20  74
+
+2018-07-28 21:23:28,519 - ht4/train.log - INFO - new best dev f1 score:23.610
+2018-07-28 21:23:28,642 - ht4/train.log - INFO - model saved
+2018-07-28 21:23:30,987 - ht4/train.log - INFO - iteration:2 step:46/2954, NER loss: 2.180115
+2018-07-28 21:23:35,591 - ht4/train.log - INFO - iteration:2 step:146/2954, NER loss: 1.615188
+2018-07-28 21:23:40,274 - ht4/train.log - INFO - iteration:2 step:246/2954, NER loss: 1.379200
+2018-07-28 21:23:44,610 - ht4/train.log - INFO - iteration:2 step:346/2954, NER loss: 0.997172
+2018-07-28 21:23:49,864 - ht4/train.log - INFO - iteration:2 step:446/2954, NER loss: 1.913272
+2018-07-28 21:23:54,411 - ht4/train.log - INFO - iteration:2 step:546/2954, NER loss: 1.252094
+2018-07-28 21:23:59,150 - ht4/train.log - INFO - iteration:2 step:646/2954, NER loss: 1.416200
+2018-07-28 21:24:03,944 - ht4/train.log - INFO - iteration:2 step:746/2954, NER loss: 1.562108
+2018-07-28 21:24:08,757 - ht4/train.log - INFO - iteration:2 step:846/2954, NER loss: 1.266255
+2018-07-28 21:24:13,465 - ht4/train.log - INFO - iteration:2 step:946/2954, NER loss: 1.308074
+2018-07-28 21:24:17,966 - ht4/train.log - INFO - iteration:2 step:1046/2954, NER loss: 1.263135
+2018-07-28 21:24:22,793 - ht4/train.log - INFO - iteration:2 step:1146/2954, NER loss: 1.244658
+2018-07-28 21:24:27,600 - ht4/train.log - INFO - iteration:2 step:1246/2954, NER loss: 1.111355
+2018-07-28 21:24:32,739 - ht4/train.log - INFO - iteration:2 step:1346/2954, NER loss: 1.355533
+2018-07-28 21:24:36,911 - ht4/train.log - INFO - iteration:2 step:1446/2954, NER loss: 0.784902
+2018-07-28 21:24:41,796 - ht4/train.log - INFO - iteration:2 step:1546/2954, NER loss: 1.296885
+2018-07-28 21:24:46,695 - ht4/train.log - INFO - iteration:2 step:1646/2954, NER loss: 1.248873
+2018-07-28 21:24:52,157 - ht4/train.log - INFO - iteration:2 step:1746/2954, NER loss: 1.575296
+2018-07-28 21:24:57,201 - ht4/train.log - INFO - iteration:2 step:1846/2954, NER loss: 1.144844
+2018-07-28 21:25:01,655 - ht4/train.log - INFO - iteration:2 step:1946/2954, NER loss: 0.848148
+2018-07-28 21:25:07,046 - ht4/train.log - INFO - iteration:2 step:2046/2954, NER loss: 1.340512
+2018-07-28 21:25:12,177 - ht4/train.log - INFO - iteration:2 step:2146/2954, NER loss: 1.109819
+2018-07-28 21:25:17,235 - ht4/train.log - INFO - iteration:2 step:2246/2954, NER loss: 0.933113
+2018-07-28 21:25:22,296 - ht4/train.log - INFO - iteration:2 step:2346/2954, NER loss: 1.036981
+2018-07-28 21:25:27,701 - ht4/train.log - INFO - iteration:2 step:2446/2954, NER loss: 0.937853
+2018-07-28 21:25:32,056 - ht4/train.log - INFO - iteration:2 step:2546/2954, NER loss: 0.785051
+2018-07-28 21:25:37,150 - ht4/train.log - INFO - iteration:2 step:2646/2954, NER loss: 1.118296
+2018-07-28 21:25:41,893 - ht4/train.log - INFO - iteration:2 step:2746/2954, NER loss: 0.810918
+2018-07-28 21:25:46,674 - ht4/train.log - INFO - iteration:2 step:2846/2954, NER loss: 0.835476
+2018-07-28 21:25:50,946 - ht4/train.log - INFO - iteration:2 step:2946/2954, NER loss: 0.682737
+2018-07-28 21:25:51,293 - ht4/train.log - INFO - evaluate:dev
+2018-07-28 21:25:58,333 - ht4/train.log - INFO - processed 207821 tokens with 712 phrases; found: 393 phrases; correct: 287.
+
+2018-07-28 21:25:58,334 - ht4/train.log - INFO - accuracy:  96.17%; precision:  73.03%; recall:  40.31%; FB1:  51.95
+
+2018-07-28 21:25:58,334 - ht4/train.log - INFO -                HT: precision:  83.33%; recall:  17.54%; FB1:  28.99  24
+
+2018-07-28 21:25:58,334 - ht4/train.log - INFO -               ORG: precision:  77.55%; recall:  42.34%; FB1:  54.77  196
+
+2018-07-28 21:25:58,334 - ht4/train.log - INFO -                XM: precision:  66.47%; recall:  48.12%; FB1:  55.83  173
+
+2018-07-28 21:25:58,359 - ht4/train.log - INFO - new best dev f1 score:51.950
+2018-07-28 21:25:58,469 - ht4/train.log - INFO - model saved
+2018-07-28 21:26:02,657 - ht4/train.log - INFO - iteration:3 step:92/2954, NER loss: 0.599267
+2018-07-28 21:26:07,897 - ht4/train.log - INFO - iteration:3 step:192/2954, NER loss: 0.923899
+2018-07-28 21:26:12,879 - ht4/train.log - INFO - iteration:3 step:292/2954, NER loss: 0.734754
+2018-07-28 21:26:17,751 - ht4/train.log - INFO - iteration:3 step:392/2954, NER loss: 0.723252
+2018-07-28 21:26:22,275 - ht4/train.log - INFO - iteration:3 step:492/2954, NER loss: 0.656311
+2018-07-28 21:26:27,012 - ht4/train.log - INFO - iteration:3 step:592/2954, NER loss: 0.744983
+2018-07-28 21:26:31,672 - ht4/train.log - INFO - iteration:3 step:692/2954, NER loss: 0.763399
+2018-07-28 21:26:36,508 - ht4/train.log - INFO - iteration:3 step:792/2954, NER loss: 0.775100
+2018-07-28 21:26:41,390 - ht4/train.log - INFO - iteration:3 step:892/2954, NER loss: 0.673296
+2018-07-28 21:26:46,663 - ht4/train.log - INFO - iteration:3 step:992/2954, NER loss: 0.758606
+2018-07-28 21:26:51,231 - ht4/train.log - INFO - iteration:3 step:1092/2954, NER loss: 0.700356
+2018-07-28 21:26:56,250 - ht4/train.log - INFO - iteration:3 step:1192/2954, NER loss: 0.795529
+2018-07-28 21:27:01,261 - ht4/train.log - INFO - iteration:3 step:1292/2954, NER loss: 0.521514
+2018-07-28 21:27:05,904 - ht4/train.log - INFO - iteration:3 step:1392/2954, NER loss: 0.627900
+2018-07-28 21:27:10,373 - ht4/train.log - INFO - iteration:3 step:1492/2954, NER loss: 0.572378
+2018-07-28 21:27:14,943 - ht4/train.log - INFO - iteration:3 step:1592/2954, NER loss: 0.615388
+2018-07-28 21:27:19,560 - ht4/train.log - INFO - iteration:3 step:1692/2954, NER loss: 0.563560
+2018-07-28 21:27:24,423 - ht4/train.log - INFO - iteration:3 step:1792/2954, NER loss: 0.607531
+2018-07-28 21:27:29,689 - ht4/train.log - INFO - iteration:3 step:1892/2954, NER loss: 0.709897
+2018-07-28 21:27:34,272 - ht4/train.log - INFO - iteration:3 step:1992/2954, NER loss: 0.629991
+2018-07-28 21:27:39,153 - ht4/train.log - INFO - iteration:3 step:2092/2954, NER loss: 0.528163
+2018-07-28 21:27:43,641 - ht4/train.log - INFO - iteration:3 step:2192/2954, NER loss: 0.542000
+2018-07-28 21:27:48,388 - ht4/train.log - INFO - iteration:3 step:2292/2954, NER loss: 0.560088
+2018-07-28 21:27:52,832 - ht4/train.log - INFO - iteration:3 step:2392/2954, NER loss: 0.470917
+2018-07-28 21:27:57,825 - ht4/train.log - INFO - iteration:3 step:2492/2954, NER loss: 0.662508
+2018-07-28 21:28:02,792 - ht4/train.log - INFO - iteration:3 step:2592/2954, NER loss: 0.595176
+2018-07-28 21:28:08,253 - ht4/train.log - INFO - iteration:3 step:2692/2954, NER loss: 0.770587
+2018-07-28 21:28:12,978 - ht4/train.log - INFO - iteration:3 step:2792/2954, NER loss: 0.556468
+2018-07-28 21:28:17,955 - ht4/train.log - INFO - iteration:3 step:2892/2954, NER loss: 0.452594
+2018-07-28 21:28:21,304 - ht4/train.log - INFO - evaluate:dev
+2018-07-28 21:28:28,428 - ht4/train.log - INFO - processed 207821 tokens with 712 phrases; found: 458 phrases; correct: 324.
+
+2018-07-28 21:28:28,428 - ht4/train.log - INFO - accuracy:  96.26%; precision:  70.74%; recall:  45.51%; FB1:  55.38
+
+2018-07-28 21:28:28,428 - ht4/train.log - INFO -                HT: precision:  75.00%; recall:  31.58%; FB1:  44.44  48
+
+2018-07-28 21:28:28,428 - ht4/train.log - INFO -               ORG: precision:  76.39%; recall:  45.96%; FB1:  57.39  216
+
+2018-07-28 21:28:28,428 - ht4/train.log - INFO -                XM: precision:  63.40%; recall:  51.46%; FB1:  56.81  194
+
+2018-07-28 21:28:28,463 - ht4/train.log - INFO - new best dev f1 score:55.380
+2018-07-28 21:28:28,606 - ht4/train.log - INFO - model saved
+2018-07-28 21:28:30,264 - ht4/train.log - INFO - iteration:4 step:38/2954, NER loss: 0.571832
+2018-07-28 21:28:34,726 - ht4/train.log - INFO - iteration:4 step:138/2954, NER loss: 0.451541
+2018-07-28 21:28:39,318 - ht4/train.log - INFO - iteration:4 step:238/2954, NER loss: 0.459118
+2018-07-28 21:28:43,867 - ht4/train.log - INFO - iteration:4 step:338/2954, NER loss: 0.461519
+2018-07-28 21:28:48,446 - ht4/train.log - INFO - iteration:4 step:438/2954, NER loss: 0.470506
+2018-07-28 21:28:54,134 - ht4/train.log - INFO - iteration:4 step:538/2954, NER loss: 0.654806
+2018-07-28 21:28:59,266 - ht4/train.log - INFO - iteration:4 step:638/2954, NER loss: 0.591488
+2018-07-28 21:29:04,490 - ht4/train.log - INFO - iteration:4 step:738/2954, NER loss: 0.591742
+2018-07-28 21:29:09,580 - ht4/train.log - INFO - iteration:4 step:838/2954, NER loss: 0.526505
+2018-07-28 21:29:14,115 - ht4/train.log - INFO - iteration:4 step:938/2954, NER loss: 0.515897
+2018-07-28 21:29:19,296 - ht4/train.log - INFO - iteration:4 step:1038/2954, NER loss: 0.585129
+2018-07-28 21:29:23,930 - ht4/train.log - INFO - iteration:4 step:1138/2954, NER loss: 0.475614
+2018-07-28 21:29:28,818 - ht4/train.log - INFO - iteration:4 step:1238/2954, NER loss: 0.430991
+2018-07-28 21:29:33,504 - ht4/train.log - INFO - iteration:4 step:1338/2954, NER loss: 0.404160
+2018-07-28 21:29:38,007 - ht4/train.log - INFO - iteration:4 step:1438/2954, NER loss: 0.439401
+2018-07-28 21:29:43,210 - ht4/train.log - INFO - iteration:4 step:1538/2954, NER loss: 0.508378
+2018-07-28 21:29:47,740 - ht4/train.log - INFO - iteration:4 step:1638/2954, NER loss: 0.435940
+2018-07-28 21:29:52,339 - ht4/train.log - INFO - iteration:4 step:1738/2954, NER loss: 0.411985
+2018-07-28 21:29:57,306 - ht4/train.log - INFO - iteration:4 step:1838/2954, NER loss: 0.459473
+2018-07-28 21:30:02,550 - ht4/train.log - INFO - iteration:4 step:1938/2954, NER loss: 0.589186
+2018-07-28 21:30:07,860 - ht4/train.log - INFO - iteration:4 step:2038/2954, NER loss: 0.483308
+2018-07-28 21:30:12,452 - ht4/train.log - INFO - iteration:4 step:2138/2954, NER loss: 0.423594
+2018-07-28 21:30:16,620 - ht4/train.log - INFO - iteration:4 step:2238/2954, NER loss: 0.332038
+2018-07-28 21:30:21,171 - ht4/train.log - INFO - iteration:4 step:2338/2954, NER loss: 0.359318
+2018-07-28 21:30:26,369 - ht4/train.log - INFO - iteration:4 step:2438/2954, NER loss: 0.518958
+2018-07-28 21:30:31,180 - ht4/train.log - INFO - iteration:4 step:2538/2954, NER loss: 0.373371
+2018-07-28 21:30:36,282 - ht4/train.log - INFO - iteration:4 step:2638/2954, NER loss: 0.488275
+2018-07-28 21:30:41,587 - ht4/train.log - INFO - iteration:4 step:2738/2954, NER loss: 0.542473
+2018-07-28 21:30:46,206 - ht4/train.log - INFO - iteration:4 step:2838/2954, NER loss: 0.428390
+2018-07-28 21:30:51,004 - ht4/train.log - INFO - iteration:4 step:2938/2954, NER loss: 0.451984
+2018-07-28 21:30:51,735 - ht4/train.log - INFO - evaluate:dev
+2018-07-28 21:30:58,815 - ht4/train.log - INFO - processed 207821 tokens with 712 phrases; found: 600 phrases; correct: 402.
+
+2018-07-28 21:30:58,815 - ht4/train.log - INFO - accuracy:  96.52%; precision:  67.00%; recall:  56.46%; FB1:  61.28
+
+2018-07-28 21:30:58,815 - ht4/train.log - INFO -                HT: precision:  72.29%; recall:  52.63%; FB1:  60.91  83
+
+2018-07-28 21:30:58,815 - ht4/train.log - INFO -               ORG: precision:  71.88%; recall:  57.66%; FB1:  63.99  288
+
+2018-07-28 21:30:58,815 - ht4/train.log - INFO -                XM: precision:  58.95%; recall:  56.49%; FB1:  57.69  229
+
+2018-07-28 21:30:58,839 - ht4/train.log - INFO - new best dev f1 score:61.280
+2018-07-28 21:30:58,938 - ht4/train.log - INFO - model saved
+2018-07-28 21:31:02,861 - ht4/train.log - INFO - iteration:5 step:84/2954, NER loss: 0.300983
+2018-07-28 21:31:07,293 - ht4/train.log - INFO - iteration:5 step:184/2954, NER loss: 0.340979
+2018-07-28 21:31:11,963 - ht4/train.log - INFO - iteration:5 step:284/2954, NER loss: 0.417636
+2018-07-28 21:31:17,442 - ht4/train.log - INFO - iteration:5 step:384/2954, NER loss: 0.492042
+2018-07-28 21:31:21,685 - ht4/train.log - INFO - iteration:5 step:484/2954, NER loss: 0.334220
+2018-07-28 21:31:26,773 - ht4/train.log - INFO - iteration:5 step:584/2954, NER loss: 0.507339
+2018-07-28 21:31:31,693 - ht4/train.log - INFO - iteration:5 step:684/2954, NER loss: 0.386922
+2018-07-28 21:31:37,207 - ht4/train.log - INFO - iteration:5 step:784/2954, NER loss: 0.664949
+2018-07-28 21:31:42,219 - ht4/train.log - INFO - iteration:5 step:884/2954, NER loss: 0.404764
+2018-07-28 21:31:46,992 - ht4/train.log - INFO - iteration:5 step:984/2954, NER loss: 0.454202
+2018-07-28 21:31:51,135 - ht4/train.log - INFO - iteration:5 step:1084/2954, NER loss: 0.293480
+2018-07-28 21:31:55,822 - ht4/train.log - INFO - iteration:5 step:1184/2954, NER loss: 0.278593
+2018-07-28 21:32:00,189 - ht4/train.log - INFO - iteration:5 step:1284/2954, NER loss: 0.313835
+2018-07-28 21:32:04,797 - ht4/train.log - INFO - iteration:5 step:1384/2954, NER loss: 0.357348
+2018-07-28 21:32:09,625 - ht4/train.log - INFO - iteration:5 step:1484/2954, NER loss: 0.384203
+2018-07-28 21:32:14,634 - ht4/train.log - INFO - iteration:5 step:1584/2954, NER loss: 0.395474
+2018-07-28 21:32:19,384 - ht4/train.log - INFO - iteration:5 step:1684/2954, NER loss: 0.339130
+2018-07-28 21:32:24,119 - ht4/train.log - INFO - iteration:5 step:1784/2954, NER loss: 0.366492
+2018-07-28 21:32:28,641 - ht4/train.log - INFO - iteration:5 step:1884/2954, NER loss: 0.296232
+2018-07-28 21:32:33,510 - ht4/train.log - INFO - iteration:5 step:1984/2954, NER loss: 0.414993
+2018-07-28 21:32:38,305 - ht4/train.log - INFO - iteration:5 step:2084/2954, NER loss: 0.427725
+2018-07-28 21:32:43,288 - ht4/train.log - INFO - iteration:5 step:2184/2954, NER loss: 0.373610
+2018-07-28 21:32:48,048 - ht4/train.log - INFO - iteration:5 step:2284/2954, NER loss: 0.327834
+2018-07-28 21:32:53,306 - ht4/train.log - INFO - iteration:5 step:2384/2954, NER loss: 0.419576
+2018-07-28 21:32:58,301 - ht4/train.log - INFO - iteration:5 step:2484/2954, NER loss: 0.468719
+2018-07-28 21:33:03,838 - ht4/train.log - INFO - iteration:5 step:2584/2954, NER loss: 0.467347
+2018-07-28 21:33:09,030 - ht4/train.log - INFO - iteration:5 step:2684/2954, NER loss: 0.404651
+2018-07-28 21:33:13,503 - ht4/train.log - INFO - iteration:5 step:2784/2954, NER loss: 0.346661
+2018-07-28 21:33:18,344 - ht4/train.log - INFO - iteration:5 step:2884/2954, NER loss: 0.522633
+2018-07-28 21:33:22,085 - ht4/train.log - INFO - evaluate:dev
+2018-07-28 21:33:29,159 - ht4/train.log - INFO - processed 207821 tokens with 712 phrases; found: 745 phrases; correct: 467.
+
+2018-07-28 21:33:29,159 - ht4/train.log - INFO - accuracy:  96.50%; precision:  62.68%; recall:  65.59%; FB1:  64.10
+
+2018-07-28 21:33:29,159 - ht4/train.log - INFO -                HT: precision:  63.27%; recall:  81.58%; FB1:  71.26  147
+
+2018-07-28 21:33:29,159 - ht4/train.log - INFO -               ORG: precision:  68.80%; recall:  65.74%; FB1:  67.24  343
+
+2018-07-28 21:33:29,159 - ht4/train.log - INFO -                XM: precision:  54.12%; recall:  57.74%; FB1:  55.87  255
+
+2018-07-28 21:33:29,188 - ht4/train.log - INFO - new best dev f1 score:64.100
+2018-07-28 21:33:29,289 - ht4/train.log - INFO - model saved
+2018-07-28 21:33:30,609 - ht4/train.log - INFO - iteration:6 step:30/2954, NER loss: 0.378090
+2018-07-28 21:33:35,209 - ht4/train.log - INFO - iteration:6 step:130/2954, NER loss: 0.291651
+2018-07-28 21:33:39,636 - ht4/train.log - INFO - iteration:6 step:230/2954, NER loss: 0.325227
+2018-07-28 21:33:44,431 - ht4/train.log - INFO - iteration:6 step:330/2954, NER loss: 0.331456
+2018-07-28 21:33:49,250 - ht4/train.log - INFO - iteration:6 step:430/2954, NER loss: 0.408473
+2018-07-28 21:33:54,426 - ht4/train.log - INFO - iteration:6 step:530/2954, NER loss: 0.395243
+2018-07-28 21:33:59,191 - ht4/train.log - INFO - iteration:6 step:630/2954, NER loss: 0.367308
+2018-07-28 21:34:04,076 - ht4/train.log - INFO - iteration:6 step:730/2954, NER loss: 0.393478
+2018-07-28 21:34:08,373 - ht4/train.log - INFO - iteration:6 step:830/2954, NER loss: 0.258860
+2018-07-28 21:34:12,902 - ht4/train.log - INFO - iteration:6 step:930/2954, NER loss: 0.329792
+2018-07-28 21:34:17,672 - ht4/train.log - INFO - iteration:6 step:1030/2954, NER loss: 0.366179
+2018-07-28 21:34:22,328 - ht4/train.log - INFO - iteration:6 step:1130/2954, NER loss: 0.408767
+2018-07-28 21:34:26,882 - ht4/train.log - INFO - iteration:6 step:1230/2954, NER loss: 0.292708
+2018-07-28 21:34:31,534 - ht4/train.log - INFO - iteration:6 step:1330/2954, NER loss: 0.260217
+2018-07-28 21:34:37,481 - ht4/train.log - INFO - iteration:6 step:1430/2954, NER loss: 0.473976
+2018-07-28 21:34:43,006 - ht4/train.log - INFO - iteration:6 step:1530/2954, NER loss: 0.504127
+2018-07-28 21:34:47,760 - ht4/train.log - INFO - iteration:6 step:1630/2954, NER loss: 0.348222
+2018-07-28 21:34:52,617 - ht4/train.log - INFO - iteration:6 step:1730/2954, NER loss: 0.365115
+2018-07-28 21:34:57,531 - ht4/train.log - INFO - iteration:6 step:1830/2954, NER loss: 0.382515
+2018-07-28 21:35:02,732 - ht4/train.log - INFO - iteration:6 step:1930/2954, NER loss: 0.406851
+2018-07-28 21:35:07,838 - ht4/train.log - INFO - iteration:6 step:2030/2954, NER loss: 0.435839
+2018-07-28 21:35:12,209 - ht4/train.log - INFO - iteration:6 step:2130/2954, NER loss: 0.280067
+2018-07-28 21:35:17,032 - ht4/train.log - INFO - iteration:6 step:2230/2954, NER loss: 0.375439
+2018-07-28 21:35:22,437 - ht4/train.log - INFO - iteration:6 step:2330/2954, NER loss: 0.478429
+2018-07-28 21:35:27,285 - ht4/train.log - INFO - iteration:6 step:2430/2954, NER loss: 0.384605
+2018-07-28 21:35:32,099 - ht4/train.log - INFO - iteration:6 step:2530/2954, NER loss: 0.324728
+2018-07-28 21:35:36,744 - ht4/train.log - INFO - iteration:6 step:2630/2954, NER loss: 0.351998
+2018-07-28 21:35:41,383 - ht4/train.log - INFO - iteration:6 step:2730/2954, NER loss: 0.326175
+2018-07-28 21:35:46,951 - ht4/train.log - INFO - iteration:6 step:2830/2954, NER loss: 0.422372
+2018-07-28 21:35:52,360 - ht4/train.log - INFO - iteration:6 step:2930/2954, NER loss: 0.396187
+2018-07-28 21:35:53,288 - ht4/train.log - INFO - evaluate:dev
+2018-07-28 21:36:00,382 - ht4/train.log - INFO - processed 207821 tokens with 712 phrases; found: 813 phrases; correct: 469.
+
+2018-07-28 21:36:00,382 - ht4/train.log - INFO - accuracy:  96.12%; precision:  57.69%; recall:  65.87%; FB1:  61.51
+
+2018-07-28 21:36:00,382 - ht4/train.log - INFO -                HT: precision:  65.96%; recall:  54.39%; FB1:  59.62  94
+
+2018-07-28 21:36:00,382 - ht4/train.log - INFO -               ORG: precision:  60.84%; recall:  72.70%; FB1:  66.24  429
+
+2018-07-28 21:36:00,382 - ht4/train.log - INFO -                XM: precision:  50.34%; recall:  61.09%; FB1:  55.20  290
+
+2018-07-28 21:36:04,297 - ht4/train.log - INFO - iteration:7 step:76/2954, NER loss: 0.365914
+2018-07-28 21:36:08,767 - ht4/train.log - INFO - iteration:7 step:176/2954, NER loss: 0.282239
+2018-07-28 21:36:13,440 - ht4/train.log - INFO - iteration:7 step:276/2954, NER loss: 0.317463
+2018-07-28 21:36:17,820 - ht4/train.log - INFO - iteration:7 step:376/2954, NER loss: 0.247564
+2018-07-28 21:36:23,016 - ht4/train.log - INFO - iteration:7 step:476/2954, NER loss: 0.412779
+2018-07-28 21:36:27,609 - ht4/train.log - INFO - iteration:7 step:576/2954, NER loss: 0.244170
+2018-07-28 21:36:32,239 - ht4/train.log - INFO - iteration:7 step:676/2954, NER loss: 0.254121
+2018-07-28 21:36:36,566 - ht4/train.log - INFO - iteration:7 step:776/2954, NER loss: 0.283778
+2018-07-28 21:36:41,660 - ht4/train.log - INFO - iteration:7 step:876/2954, NER loss: 0.394784
+2018-07-28 21:36:46,189 - ht4/train.log - INFO - iteration:7 step:976/2954, NER loss: 0.360066
+2018-07-28 21:36:51,796 - ht4/train.log - INFO - iteration:7 step:1076/2954, NER loss: 0.441096
+2018-07-28 21:36:56,448 - ht4/train.log - INFO - iteration:7 step:1176/2954, NER loss: 0.300709
+2018-07-28 21:37:01,409 - ht4/train.log - INFO - iteration:7 step:1276/2954, NER loss: 0.378189
+2018-07-28 21:37:06,756 - ht4/train.log - INFO - iteration:7 step:1376/2954, NER loss: 0.433170
+2018-07-28 21:37:11,626 - ht4/train.log - INFO - iteration:7 step:1476/2954, NER loss: 0.338952
+2018-07-28 21:37:16,864 - ht4/train.log - INFO - iteration:7 step:1576/2954, NER loss: 0.388383
+2018-07-28 21:37:21,867 - ht4/train.log - INFO - iteration:7 step:1676/2954, NER loss: 0.420745
+2018-07-28 21:37:26,873 - ht4/train.log - INFO - iteration:7 step:1776/2954, NER loss: 0.368268
+2018-07-28 21:37:31,940 - ht4/train.log - INFO - iteration:7 step:1876/2954, NER loss: 0.400100
+2018-07-28 21:37:36,827 - ht4/train.log - INFO - iteration:7 step:1976/2954, NER loss: 0.291709
+2018-07-28 21:37:41,667 - ht4/train.log - INFO - iteration:7 step:2076/2954, NER loss: 0.346789
+2018-07-28 21:37:46,170 - ht4/train.log - INFO - iteration:7 step:2176/2954, NER loss: 0.269199
+2018-07-28 21:37:51,010 - ht4/train.log - INFO - iteration:7 step:2276/2954, NER loss: 0.349657
+2018-07-28 21:37:55,468 - ht4/train.log - INFO - iteration:7 step:2376/2954, NER loss: 0.278615
+2018-07-28 21:38:00,865 - ht4/train.log - INFO - iteration:7 step:2476/2954, NER loss: 0.437359
+2018-07-28 21:38:05,439 - ht4/train.log - INFO - iteration:7 step:2576/2954, NER loss: 0.293934
+2018-07-28 21:38:10,681 - ht4/train.log - INFO - iteration:7 step:2676/2954, NER loss: 0.441625
+2018-07-28 21:38:15,126 - ht4/train.log - INFO - iteration:7 step:2776/2954, NER loss: 0.254856
+2018-07-28 21:38:19,988 - ht4/train.log - INFO - iteration:7 step:2876/2954, NER loss: 0.333573
+2018-07-28 21:38:24,280 - ht4/train.log - INFO - evaluate:dev
+2018-07-28 21:38:31,453 - ht4/train.log - INFO - processed 207821 tokens with 712 phrases; found: 758 phrases; correct: 443.
+
+2018-07-28 21:38:31,453 - ht4/train.log - INFO - accuracy:  95.64%; precision:  58.44%; recall:  62.22%; FB1:  60.27
+
+2018-07-28 21:38:31,453 - ht4/train.log - INFO -                HT: precision:  59.15%; recall:  73.68%; FB1:  65.62  142
+
+2018-07-28 21:38:31,453 - ht4/train.log - INFO -               ORG: precision:  73.36%; recall:  55.99%; FB1:  63.51  274
+
+2018-07-28 21:38:31,453 - ht4/train.log - INFO -                XM: precision:  46.20%; recall:  66.11%; FB1:  54.39  342
+
+2018-07-28 21:38:36,446 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-29 11:22:45,718 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-29 14:12:27,516 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-29 15:54:20,828 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-29 19:15:17,535 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-30 08:38:52,862 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-30 14:40:49,645 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-30 15:11:29,338 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-30 16:41:01,083 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-30 19:06:52,620 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-07-30 19:29:04,565 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-01 08:19:27,881 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-01 10:08:31,819 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-01 14:46:23,533 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-02 15:43:30,043 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-02 16:29:15,034 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-02 17:37:51,325 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-02 17:42:39,186 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-02 17:48:14,739 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-02 17:55:52,328 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-02 18:20:33,881 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-03 14:57:21,410 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-03 20:33:49,625 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-06 08:30:58,523 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-06 13:45:41,775 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-06 17:40:19,390 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-07 16:45:35,241 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-07 16:56:55,475 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-07 17:15:01,827 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-07 20:57:44,477 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-07 21:03:17,426 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-07 21:45:06,937 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 09:56:55,142 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 13:59:16,192 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 15:30:56,286 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 15:48:56,625 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 16:12:02,386 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 16:42:17,064 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 16:53:16,241 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 17:13:01,972 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 18:40:30,190 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 19:04:08,585 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 19:22:20,306 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-08 20:32:47,366 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2018-08-22 18:29:01,265 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+2021-12-19 23:57:22,899 - ht4/train.log - INFO - Reading model parameters from ht4\ner.ckpt
+2021-12-20 22:09:45,935 - ht4/train.log - INFO - Reading model parameters from ht4\ner.ckpt
+2022-03-16 18:44:55,885 - ht4/train.log - INFO - Reading model parameters from ht4\ner.ckpt
+2022-03-16 19:29:14,719 - ht4/train.log - INFO - Reading model parameters from ht4\ner.ckpt
+2022-03-16 19:46:40,192 - ht4/train.log - INFO - Reading model parameters from ht4\ner.ckpt
+2022-04-07 17:35:18,243 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:35:34,156 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:35:51,220 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:36:08,112 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:49:44,855 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:51:26,881 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:55:12,939 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:55:31,193 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:55:49,359 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 17:56:07,776 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 20:00:19,816 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 20:00:38,791 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 20:00:58,047 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt
+2022-04-07 20:01:16,840 - ./ht4/train.log - INFO - Reading model parameters from ./ht4\ner.ckpt

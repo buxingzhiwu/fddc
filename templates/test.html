@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息抽取系统</title>
+    {# 载入bootstrap的css文件 #}
+    <link href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    {# 引入js文件 #}
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+<div class="container-md">
+    {#    网页标题#}
+    <div class="jumbotron">
+        <h1 align="center">A股上市公司公告信息抽取系统</h1>
+    </div>
+    <br>
+
+    <div>
+        {% if ifsuccess==2 %}
+            <div class="alert alert-success" role="alert">
+                {{ filename }} 上传成功！
+            </div>
+        {% elif ifsuccess==3 %}
+            <div class="alert alert-danger" role="alert">
+                上传失败，请上传html格式的文件！
+            </div>
+        {% elif ifsuccess==4 %}
+            <div class="alert alert-danger" role="alert">
+                {{ filename }} 上传失败！
+            </div>
+        {% endif %}
+        <div class="row" align="center">
+
+            <div class="col-md-12" style="margin-top:50px;margin-bottom: 50px; ">
+                <form method=post enctype=multipart/form-data>
+                    <input type=file name=file class="btn btn-light " style="font-size: 24px;">
+                    <input type=submit value=上传 class="btn btn-light "style="font-size: 24px;">
+                </form>
+            </div>
+
+            <div align="center" class="col-md-12">
+                <a href="{{ url_for('manage_file') }}" class="btn btn-light col-md-12" target="_blank"
+                   style="height: 150px;line-height: 150px;font-size: 24px;">文件管理</a>
+            </div>
+            <div align="center" class="col-md-12">
+                <a href="{{ url_for('extraction') }}" class="btn btn-info col-md-12" target="_blank"
+                   style="height: 150px;line-height: 150px;font-size: 24px;">信息抽取</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

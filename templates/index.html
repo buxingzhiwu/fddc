@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息抽取系统</title>
+    {# 载入bootstrap的css文件 #}
+    <link href="../static/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    {# 引入js文件 #}
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+<body>
+<div class="container-md">
+    {#    网页标题#}
+    <div class="jumbotron">
+        <h1 align="center">A股上市公司公告信息抽取系统</h1>
+    </div>
+    <br>
+
+
+    <div>
+        <p class="col-md-12">请选择需要进行摘要的公告:</p>
+
+
+        {#公告id	股东全称	股东简称	变动截止日期	变动价格	变动数量	变动后持股数	变动后持股比例#}
+        <div class="col-md-12">
+            <br>
+            <h4>信息抽取结果:</h4><br>
+            <div>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th scope="col">文件名</th>
+                        <th scope="col">序号</th>
+                        <th scope="col">股东全称</th>
+                        <th scope="col">股东简称</th>
+                        <th scope="col">变动截止日期</th>
+                        <th scope="col">变动价格</th>
+                        <th scope="col">变动数量</th>
+                        <th scope="col">变动后持股数</th>
+                        <th scope="col">变动后持股比例</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for row in calresult %}
+                        <tr>
+                            <td>{{ row.id }}</td>
+                            <td>{{ row.resrank }}</td>
+                            <td>{{ row.fullname }}</td>
+                            <td>{{ row.shortname }}</td>
+                            <td>{{ row.deadline }}</td>
+                            <td>{{ row.dynamicprice }}</td>
+                            <td>{{ row.dynamicnum }}</td>
+                            <td>{{ row.sharesnum }}</td>
+                            <td>{{ row.shareratio }}</td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            {#            <table class="table table-bordered">#}
+            {#                <tbody>#}
+            {#                <tr>#}
+            {#                    <th scope="row" class="col-md-2">公告id</th>#}
+            {#                    <td class="col-md-10">Mark</td>#}
+            {#                </tr>#}
+            {#                <tr>#}
+            {#                    <th scope="row" class="col-md-2">股东全称</th>#}
+            {#                    <td class="col-md-10">Jacob</td>#}
+            {#                </tr>#}
+            {#                <tr>#}
+            {#                    <th scope="row" class="col-md-2">股东简称</th>#}
+            {#                    <td class="col-md-10">@twitter</td>#}
+            {#                </tr>#}
+            {#                <tr>#}
+            {#                    <th scope="row" class="col-md-2">变动截止日期</th>#}
+            {#                    <td class="col-md-10">@twitter</td>#}
+            {#                </tr>#}
+            {#                <tr>#}
+            {#                    <th scope="row" class="col-md-2">变动价格</th>#}
+            {#                    <td class="col-md-10">@twitter</td>#}
+            {#                </tr>#}
+            {#                <tr>#}
+            {#                    <th scope="row" class="col-md-2">变动后持股数</th>#}
+            {#                    <td class="col-md-10">@twitter</td>#}
+            {#                </tr>#}
+            {#                <tr>#}
+            {#                    <th scope="row" class="col-md-2">变动后持股比例</th>#}
+            {#                    <td class="col-md-10">@twitter</td>#}
+            {#                </tr>#}
+            {#                </tbody>#}
+            {#            </table>#}
+
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

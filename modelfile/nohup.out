@@ -1,0 +1,124 @@
+./zjc/zjc_part1.py:238: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+  part_1 = pd.concat([part_1, s], ignore_index=True)
+./zjc/zjc_part1.py:261: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+  df_answer = pd.concat([df_answer, part_2], ignore_index=True)
+Building prefix dict from the default dictionary ...
+Dumping model to file cache ./jieba.cache
+Loading model cost 1.038 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:02:55.197664: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:03:00,376 - zjc1/train.log - INFO - Reading model parameters from zjc1/ner.ckpt
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 0.955 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:05:50.679961: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:05:54,055 - zjc2/train.log - INFO - Reading model parameters from zjc2/ner.ckpt
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 1.107 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:08:44.676941: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:08:46,648 - zjc3/train.log - INFO - Reading model parameters from zjc3/ner.ckpt
+[1, 3, 120, 100]
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 0.941 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:10:25.557838: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:10:27,486 - zjc4/train.log - INFO - Reading model parameters from zjc4/ner.ckpt
+[1, 3, 120, 100]
+2018-08-22 18:11:57.473795: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+zjc_part1 finish!!
+zjc_part1 finish!!
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 0.865 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:20:42.959025: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:20:46,114 - ht1/train.log - INFO - Reading model parameters from ht1/ner.ckpt
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 0.891 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:23:43.901708: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+WARNING:tensorflow:From /root/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:23:47,030 - ht2/train.log - INFO - Reading model parameters from ht2/ner.ckpt
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 1.058 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:26:56.513539: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:26:58,651 - ht3/train.log - INFO - Reading model parameters from ht3/ner.ckpt
+[1, 3, 120, 100]
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 1.015 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 18:28:59.067298: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 18:29:01,265 - ht4/train.log - INFO - Reading model parameters from ht4/ner.ckpt
+[1, 3, 120, 100]
+2018-08-22 18:30:49.154147: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-08-22 18:31:25.712419: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-08-22 18:31:43.562979: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Building prefix dict from the default dictionary ...
+Loading model from cache ./jieba.cache
+Loading model cost 0.862 seconds.
+Prefix dict has been built succesfully.
+2018-08-22 19:17:53.138631: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+/root/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:100: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2018-08-22 19:17:55,021 - cz/train.log - INFO - Reading model parameters from cz/ner.ckpt
+[1, 3, 120, 100]
+2018-08-22 19:45:48.732488: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
